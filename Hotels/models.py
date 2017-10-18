@@ -1,5 +1,6 @@
 from django.db import models
 import random
+from django.db.models import Count
 
 
 class Region(models.Model):
